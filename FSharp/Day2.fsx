@@ -65,5 +65,3 @@ let (noun, verb) = flat |> Seq.skipWhile (fun (n, v) -> (dothing n v) <> 1969072
                         |> Seq.head
 
 let answer = 100 * noun + verb
-
-
